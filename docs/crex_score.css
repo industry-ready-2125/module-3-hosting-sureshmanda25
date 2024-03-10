@@ -1,0 +1,219 @@
+ body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.top_div{
+    align-items: center;
+}
+.navigation_bar{
+    background-color:#343a40;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav_div{
+    margin-left: 40px;
+    margin-right : 40px;
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    padding: 0;
+    gap: 6px;
+    opacity: .9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left : 120px;
+}
+
+.logo > img{
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.crextext{
+    font-size: 18px;
+    color: #cfd1d3;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap : 20px;
+    font: 300 0.9rem 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.series{
+    display:flex;
+    align-items: center;
+}
+
+.top_right{
+    margin-left:auto;
+    padding-left: 515px;
+}
+
+.home{
+    color: #fff;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.moon{
+    filter: invert(100%);
+}
+
+.cricket{
+    max-width: 3%;
+    min-width: 3%;
+}
+
+.matches{
+    display: inline-block;
+    padding: 24px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    margin-left : 150px;
+}
+
+.scorecard{
+    display: flex;
+    margin-left : 150px;
+    gap : 40px;
+}
+.scorecard1{
+    border: 1px solid #b4b2b2;
+    border-radius: 8px;
+    margin-right: 18px;
+    width: 328px;
+    box-sizing: border-box;
+}
+
+.scorecard1_top{
+    display : flex;
+    align-items: center;
+    gap : 100px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.stadium{
+    text-align: left;
+    margin-top: 0;
+    background-color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-left: 2%;
+    font-weight: 200;
+    padding-bottom: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.match_no{
+    font-weight:600;
+}
+
+.flag{
+    height: 32px;
+    width: 32px;
+    margin-right: 2%;
+}
+
+.team1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap:5px;
+}
+
+.result{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding-left: 10px;
+}
+
+.arrow{
+    font-weight : 100;
+}
+
+.overs{
+    font-size: 12px;
+}
+
+.jaiswal{
+    padding-top:25px;
+    padding-left:150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.jai_image{
+    margin-left:140px;
+}
+
+.news{
+    display: flex;
+    gap: 20px;
+}
+
+.key{
+    margin-top: 60px;
+    word-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+
+.news_head{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.time{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

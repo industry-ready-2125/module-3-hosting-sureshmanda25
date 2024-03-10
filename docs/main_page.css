@@ -1,0 +1,254 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+.rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.actor-regular {
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0 0;
+    gap: 8px;
+    margin-bottom: 40px;
+    background-color: black;
+
+}
+
+.brand {
+    font-size: 18px;
+    color: #fcfcfc;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .6;
+}
+
+.experience{
+    font-size: 32px;
+    color: #fcfcfc;
+    font-weight: 400;
+    line-height: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .9;
+
+}
+
+.Border{
+    width: 350px;
+    height: 4px;
+    background: radial-gradient(ellipse, #ffffff, #0C131A);
+    opacity: .3;
+    filter: blur(6px);
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 24px;
+    padding-bottom: 16px;
+}
+
+.decock > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.fantasy_image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.left
+{
+    padding: 12px 12px 32px;
+    gap: 32px;
+    background: rgba(5, 80, 141, .7);
+    border-radius: 12px;
+    align-items: center;
+}
+
+.left_top{
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), #00417D;
+    border-radius: 10px;
+    min-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.left_bottom{
+    padding: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    padding: 24px 0 8px;
+    gap: 6px;
+    opacity: .9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.crextext{
+    font-size: 20px;
+    color: #fcfcfc;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Rajdhani;
+    font-style: normal;
+}
+
+.decock{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    width: calc(100% - 32px);
+    padding-left: 10px;
+}
+.crexfeature{
+    font-size: 18px;
+    color: #fcfcfc;
+    font-weight: 500;
+    line-height: 147%;
+    opacity: .75;
+    text-align: center;
+
+    font-family: Actor;
+    font-style: normal
+}
+
+.crexbutton{
+    padding: 16px 28px;
+    gap: 9px;
+    background: #FCFCFC;
+    box-shadow: 0 4px 14px #0000001f;
+    border-radius: 38px;
+    min-width: 300px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #05508d;
+    font-weight: 400;
+    line-height: 23px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Actor;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.right{
+    padding: 12px 12px 32px;
+    gap: 32px;
+    background: #2E0B65;
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right_top{
+    background: #23084D;
+    border-radius: 11px;
+    min-width: 100%;
+}
+.right_logo{
+    padding: 24px 0 8px;
+    gap: 6px;
+    opacity: .9;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fantasy_image{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    width: calc(100% - 32px);
+    padding-left: 10px;
+    padding-bottom :1px;
+}
+
+.right_bottom{
+    padding: 0;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fanfeature{
+    font-size: 18px;
+    color: #fcfcfc;
+    font-weight: 500;
+    line-height: 147%;
+    opacity: .75;
+    text-align: center;
+
+    font-family: Actor;
+    font-style: normal
+}
+
+.fanbutton{
+    font-size: 18px;
+    color: #2e2924;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 16px 28px;
+    gap: 9px;
+    background: #F5C460;
+    box-shadow: 0 4px 14px #0000001f;
+    border-radius: 38px;
+    min-width: 300px;
+    text-decoration: none;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Actor;
+    font-style: normal;
+    font-weight: bold;
+}
